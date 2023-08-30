@@ -1,0 +1,142 @@
+
+.nav-link:hover {
+  color: #fcb900 !important;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-item.dropdown > .nav-link::after {
+  display: none;
+}
+
+.fa-solid:hover {
+  color: #fcb900 !important;
+  cursor: pointer;
+}
+.fa-regular:hover {
+  color: #fcb900 !important;
+  cursor: pointer;
+}
+.animate-image {
+  transition: transform 0.3s ease;
+}
+
+.animate-image:hover {
+  transform: scale(1.1);
+}
+
+/* section 2 */
+.image-container {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .image {
+    position: absolute; /* Change position to normal flow */
+
+   
+    /* Adjust margin for spacing */
+    width: 100%; /* Make the images full width */
+    height: auto; /* Let the height adjust proportionally */
+  }
+
+  .image-container {
+    text-align: center; /* Center align images on small screens */
+  }
+  .text-container{
+    margin-top: 30rem;
+  }
+}
+/* section 4 */
+.card-animation {
+  transition: transform 0.3s ease;
+}
+
+.card-animation:hover {
+  transform: scale(1.1);
+}
+
+.b-animation:hover{
+background-color:#2e2c5e !important;
+}
+/* section 1 */
+.b-animation2:hover{
+background-color:#fcb900 !important;
+}
+
+/* section 7 */
+.title-color{
+  color: #fcb900;
+  font-weight: 700;
+}
+.text-color{
+  color:#66657d;
+  font-weight: 400;
+}
+.text-color:hover{
+  color: #ffffff
+  
+}
+.back-img{
+  /* background-image: url("images/sec-7.png"); */
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 5 auto;
+ 
+  background-size: cover;
+  
+}
+/* section 9 */
+.card-hover:hover{
+  background-color: #e9ebfa;
+}
+
+/* section 10 */
+.title-color10:hover{
+  color:#fcb900;
+  font-weight: 700;
+
+}
+
+/* section 15 */
+.foot{
+  color: #fcb900;
+}
+.foot:hover{
+  color:#6c6a9c;
+}
+
+.foot-box{
+  border:2px solid #b3b7db !important;
+}
+.foot-box:hover{
+  background-color: #151349;
+  border:2px solid #fcb900 !important;
+}
+
+.foot-input{
+  background-color: #2e2c5e !important;
+  border: 1px solid #66657d !important;
+
+}
+.foot-input:hover{
+  background-color: #fcb900 !important;
+}
+.foot-icon{
+  color: white !important;
+ 
+}
+
+
+
