@@ -104,6 +104,45 @@
   font-weight: 700;
 }
 
+/* section  14 overlay */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(242, 199, 10, 0.846); 
+  transition: all 0.5s ease;
+   /* Adjust the overlay color and opacity as needed */
+  opacity: 0;
+   /* Initially, the overlay is invisible */
+ }
+
+/* Define the hover effect */
+.card:hover .overlay {
+  opacity: 1; /* When hovering over the card, make the overlay visible */
+}
+
+/* Additional styling for the overlay content */
+.overlay-content {
+  color: white; /* Text color on the overlay */
+}
+
+/* overlay text */
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 /* section 15 */
 .foot {
   color: #fcb900;
@@ -145,28 +184,4 @@
   color: rgb(32, 32, 227);
 }
 
-/* section overlay 14 */
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(
-    242,
-    199,
-    10,
-    0.5
-  ); /* Adjust the overlay color and opacity as needed */
-  opacity: 0; /* Initially, the overlay is invisible */
-}
 
-/* Define the hover effect */
-.card:hover .overlay {
-  opacity: 1; /* When hovering over the card, make the overlay visible */
-}
-
-/* Additional styling for the overlay content */
-.overlay-content {
-  color: white; /* Text color on the overlay */
-}
