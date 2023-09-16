@@ -84,15 +84,7 @@
 .text-color:hover {
   color: #ffffff;
 }
-.back-img {
-  
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  margin: 5 auto;
 
-  background-size: cover;
-}
 /* section 8 */
 .card-hover:hover {
   background-color: #e9ebfa !important;
