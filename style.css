@@ -104,15 +104,13 @@
   left: 0;
   width: 100%;
   height: 50%;
-  background-color: rgba(242, 199, 10, 0.846);
+  background-color: rgba(242, 199, 10, 0.846);/* Adjust the overlay color and opacity  */
   transition: all 0.5s ease;
-  /* Adjust the overlay color and opacity as needed */
   opacity: 0;
-  /* Initially, the overlay is invisible */
 }
 
 .card:hover .overlay {
-  opacity: 1; /* When hovering over the card, make the overlay visible */
+  opacity: 1; /* When hovering over the card overlay visible */
 }
 
 .overlay-content {
